@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="APEXScenario1-Test(failed)">
+    <parameter name="url" value="https://www.liverpool.com.mx/tienda/home"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.liverpool.tests.APEXTestsScenarios">
+        <methods>
+          <include name="APEXScenario2"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.liverpool.tests.APEXTestsScenarios -->
+    </classes>
+  </test> <!-- APEXScenario1-Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
