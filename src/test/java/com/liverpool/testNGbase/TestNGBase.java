@@ -19,7 +19,7 @@ public class TestNGBase {
 		if (browser.equalsIgnoreCase("Chrome")) {
 			// Driver exe config
 			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "/src/test/resources/Webdrivers/chromedriver17.exe");
+					System.getProperty("user.dir") + "/src/test/resources/Webdrivers/chromedriver19.exe");
 			// Instantiation the WebDriver Instance
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("Edge")) {

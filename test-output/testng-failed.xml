@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="APEXTests(failed)">
     <parameter name="url" value="https://www.liverpool.com.mx/tienda/home"/>
-    <parameter name="Browser" value="edge"/>
+    <parameter name="Browser" value="chrome"/>
     <classes>
       <class name="com.liverpool.tests.APEXTestsScenarios">
         <methods>
